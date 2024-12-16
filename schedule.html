@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Schedule - Railway Reservation System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div data-include="header.html"></div>
+    <main>
+        <section id="schedule">
+            <h2>Train Schedule</h2>
+
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search by Train Number or Name">
+                <button id="search-btn">Search</button>
+                <button id="reset-btn">Reset</button>
+            </div>
+
+         <table>
+                <thead>
+                    <tr>
+                        <th>Train No</th>
+                        <th>Train Name</th>
+                        <th>From</th>
+                        <th>To</th>
+                        <th>Departure</th>
+                        <th>Arrival</th>
+                    </tr>
+                </thead>
+                <tbody id="schedule-body">
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: support@railwayreservation.com</p>
+            <p>Phone: +91 8788920685</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Railway Reservation System</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
